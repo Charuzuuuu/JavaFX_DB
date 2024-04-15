@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchor2" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csit228f2_2.HelloController">
+   <children>
+      <VBox layoutX="-2.0" layoutY="104.0" prefHeight="247.0" prefWidth="600.0">
+         <children>
+             <HBox alignment="CENTER" prefHeight="59.0" prefWidth="600.0">
+                 <children>
+                     <Label text="MINI REGISTRATION FORM">
+                     <font>
+                        <Font size="22.0" />
+                     </font></Label>
+                 </children>
+             </HBox>
+            <HBox alignment="CENTER" prefHeight="59.0" prefWidth="600.0">
+               <children>
+                  <Label text="Name : " />
+                  <TextField />
+               </children>
+            </HBox>
+             <HBox alignment="CENTER" prefHeight="59.0" prefWidth="600.0">
+                 <children>
+                     <Label text="Email : " />
+                     <TextField />
+                 </children>
+             </HBox>
+            <HBox alignment="CENTER" prefHeight="48.0" prefWidth="600.0">
+               <children>
+                  <Button mnemonicParsing="false" text="Submit" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+
+</AnchorPane>
